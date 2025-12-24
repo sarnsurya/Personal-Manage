@@ -15,7 +15,7 @@ export default function Login({ onLogin }) {
   };
 
   return (
-    <div className="w-full mx-auto bg-gradient-to-br from-blue-600 via-indigo-700 to-purple-800 min-h-screen flex items-center justify-center p-4 sm:p-6">
+    <div className="w-full mx-auto bg-linear-to-br from-blue-600 via-indigo-700 to-purple-800 min-h-screen flex items-center justify-center p-4 sm:p-6">
       <style>{`
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
         * { font-family: 'Inter', sans-serif; }
@@ -70,7 +70,7 @@ export default function Login({ onLogin }) {
 
           <button
             onClick={handleLogin}
-            className="w-full bg-gradient-to-r from-blue-600 to-indigo-600 text-white py-4 rounded-xl font-bold shadow-lg hover:shadow-xl transition"
+            className="w-full bg-linear-to-r from-blue-600 to-indigo-600 text-white py-4 rounded-xl font-bold shadow-lg hover:shadow-xl transition"
           >
             LOGIN
           </button>

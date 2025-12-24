@@ -146,25 +146,6 @@ export default function App() {
     setShowResetDialog(true);
   };
 
-  const handleResetWithCurrentLimit = () => {
-    setExpenses([]);
-    setTasks([]);
-    setGoals([]);
-    setNotes([]);
-    setHabits([]);
-    setShowResetDialog(false);
-  };
-
-  const handleResetWithNewLimit = () => {
-    setExpenses([]);
-    setTasks([]);
-    setGoals([]);
-    setNotes([]);
-    setHabits([]);
-    setIsEditingSalary(true);
-    setShowResetDialog(false);
-  };
-
   const card = isDarkTheme
     ? "bg-gradient-to-br from-slate-800 to-slate-900 border-slate-700"
     : "bg-white border-blue-200";
